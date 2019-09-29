@@ -96,6 +96,7 @@ public class main {
 
         } // Looping your Action
 
+        System.out.println("GAME OVER !");
 
     }
 
