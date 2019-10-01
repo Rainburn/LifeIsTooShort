@@ -1,8 +1,8 @@
 public class Action {
 
-    
 
     static void printStat(int[] Stat) {
+        System.out.println("Status Tiara sekarang :");
         System.out.println("Hygiene = " + Stat[0]);
         System.out.println("Energy = " + Stat[1]);
         System.out.println("Fun = " + Stat[2]);
