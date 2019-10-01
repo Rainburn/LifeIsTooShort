@@ -62,7 +62,7 @@ public class main {
                 if ( action.equals("Tidur") || action.equals("Makan") || action.equals("Minum") || action.equals("Membaca")) {
                     type = commandSplit[1];
 
-                    if (action == "Tidur") {
+                    if (action.equals("Tidur")) {
                         myStat = getAction.Tidur(myStat, type);
                     }
                     else if (action.equals("Makan")) {
